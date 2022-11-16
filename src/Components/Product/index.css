@@ -1,0 +1,151 @@
+.card {
+  height: 100%;
+  width: 100%;
+  border-radius: 17px !important;
+}
+
+.card-title a {
+  color: #2e2e2e;
+  font-size: 1.1rem;
+}
+
+.card-title a:hover {
+  color: #fa9c23;
+  text-decoration: none;
+}
+
+/* .card-body {
+    padding-left: 0;
+  } */
+.cart-text {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+/* .cart-text .card-text-decrease-price {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+.cart-text .card-text-root-price {
+  font-size: 0.8rem;
+  color: red;
+} */
+
+.cart-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+
+
+.cart-text .cart-text-container {
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: center; */
+}
+
+.cart-text .cart-text-container .card-text-root-price {
+
+  font-size: 1rem;
+  margin-bottom: 0;
+  margin-right: 0.5rem;
+}
+
+.cart-text .cart-text-container .card-text-root-price .card-text-money {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1rem;
+}
+.cart-text .cart-text-container .card-text-root-price .card-money {
+  margin-left: 0.1rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+  text-decoration-line: underline
+}
+
+
+
+.cart-text .cart-text-container .card-text-decrease-price {
+  font-size: 1rem;
+  margin-bottom: 0;
+  margin-right: 0.5rem;
+}
+
+.cart-text .cart-text-container .card-text-decrease-price .card-text-money {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0.85rem;
+  color: red;
+}
+.cart-text .cart-text-container .card-text-decrease-price .card-text-money .card-CurrencyFormat {
+  text-decoration-line: line-through;
+}
+.cart-text .cart-text-container .card-text-decrease-price .card-text-money .card-money {
+  margin-left: 0.1rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.65rem;
+  text-decoration-line: underline
+}
+
+
+
+#view_btn {
+  background-color: #fa9c23;
+  color: white;
+}
+
+.card-img-top {
+  width: 160px;
+  height: 160px;
+  margin-top: 1.3rem;
+}
+
+#view_btn:hover {
+  color: #1b1b19;
+  background-color: #fdcc0d;
+}
+
+.ratings {
+  font-size: 1rem;
+  color: #fdcc0d;
+  margin-bottom: 0.5rem;
+}
+
+#no_of_reviews {
+  font-size: 0.85rem;
+  color: grey;
+  margin-left: 0.5rem;
+}
+
+/* Ratings */
+
+.rating-outer {
+  display: inline-block;
+  position: relative;
+  font-family: FontAwesome;
+  color: #fdcc0d;
+}
+
+.rating-outer::before {
+  content: '\f006 \f006 \f006 \f006 \f006';
+}
+
+.rating-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+.rating-inner::before {
+  content: '\f005 \f005 \f005 \f005 \f005';
+  color: #f8ce0b;
+}

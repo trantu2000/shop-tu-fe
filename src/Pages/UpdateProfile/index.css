@@ -1,0 +1,17 @@
+/* #edit_profile {
+    background-color: #fa9c23;
+    border-color: #fa9c23;
+  } */
+  
+  
+  .update-btn {
+    background-color: #fa9c23;
+    border-color: #fa9c23;
+    color: white;
+  }
+  
+  .update-btn:hover {
+    color: rgb(44, 38, 38);
+    background-color: #d1ba99;
+  }
+  
